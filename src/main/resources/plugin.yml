@@ -1,0 +1,15 @@
+name: ReportSystem
+main: ru.kdev.ReportSystem.ReportSystem
+version: "1.0.0"
+
+commands:
+  report:
+    description: Send report
+  reports:
+    description: Report list
+    aliases: [rs]
+
+permissions:
+  report.admin:
+    description: admin rights
+    default: op

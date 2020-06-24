@@ -1,0 +1,29 @@
+mysql:
+  enable: false
+  host: localhost
+  user: root
+  password: ""
+  database: reports
+  port: 3306
+locale:
+  usage: "&cИспользуйте: /report <никнейм>"
+  success: "Репорт на игрока %player% успешно отправлен! Спасибо за сотрудничество!"
+  select-type: "Выберите тип репорта:"
+  reports-title: "Репорты"
+  reports-head-title: "&e%player%"
+  reports-head-lore:
+    - "&7Тип нарушения: &f%type%"
+    - "&eНажмите для подробностей"
+  report-page-head-lore:
+    - "&7Тип нарушения: &f%type%"
+  cheating: "Читы"
+  chat: "Чат"
+  bad-name: "Некорр. никнейм"
+  bad-skin: "Некорр. скин"
+  teleport: "&eТелепорт"
+  back: "&eНазад"
+  forward: "&eВперед"
+  delete: "&eУдалить"
+  type-character: "»"
+  no-perm: "&cНет прав!"
+  no-reports: "&cРепортов нет!"
